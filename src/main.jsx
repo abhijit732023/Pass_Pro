@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 
 ]
 ,{
-  basename: '/scanner/'
+  basename: '/scan/'
 }
 );
 createRoot(document.getElementById("root")).render(

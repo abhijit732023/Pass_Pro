@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/scanner/',   // 👈 IMPORTANT!
+  base: '/scan/',   // 👈 IMPORTANT!
   plugins: [react(), tailwindcss()],
 })
